@@ -7,6 +7,7 @@ xhr.onreadystatechange=function(){
    if(xhr.readyState === 4){
        const data = JSON.parse(this.responseText)
        console.log(data);
+    
    }
 }
 xhr.send();
